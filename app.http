@@ -1,0 +1,10 @@
+POST http://localhost:3002/api/questions
+Content-Type: application/json
+
+{
+    "question":" Which programming language is known for its use in developing web applications and is often used on the server-side?",
+    "options":["Javascript","Python","Ruby","PHP"],
+    "correctAnswerIndex":3
+}
+###
+GET http://localhost:3002/api/fetchQuestions
